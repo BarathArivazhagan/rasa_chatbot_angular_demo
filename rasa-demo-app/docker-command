@@ -1,0 +1,1 @@
+docker run -v C:\Users\barath.arivazhagan\rasa-demo\rasa-demo-app:/app --name rasa -p 5005:5005 rasa/rasa:1.9.6-full run --enable-api --cors "*"
